@@ -15,9 +15,12 @@ body {
         border-width: 3px;
         
         }
-        li.even {
+        li.odd {
+            background-color: white;
+            border-style: solid;
+            height: 23px;
+            width: 22%;
 
-            background-color: green;
         }
             
             
