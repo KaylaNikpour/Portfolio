@@ -8,5 +8,18 @@ body {
         font-family: Brush Script MT;
         font-size: 80px;
       }
-    
+      section#Biography {
+
+        border-color: brown;
+        border-style: none;
+        border-width: 3px;
+        
+        }
+        li.even {
+
+            background-color: green;
+        }
+            
+            
+
     
