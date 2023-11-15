@@ -80,7 +80,7 @@ body {
             font-family: Brush Script MT;
             font-size: 50px;
             color: #C00B41;
-            border-bottom: 3px solid black;
+            border-bottom: 1px solid black;
             
          }
          table, th, td {
@@ -93,7 +93,7 @@ body {
           td {
             text-align: center;
           }
-          h2 b {
+          h2 {
                 font-family:Arial, Helvetica, sans-serif;
                 font-size: 40px;
                 color: #C00B41;
