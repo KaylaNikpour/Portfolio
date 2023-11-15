@@ -8,20 +8,31 @@ body {
     }
     .container {
         display: flex;
-        }
+        align-content: center;
+    }
+    .container {
+        justify-content: center;
+    }
 
-      section#Biography {
+      section#Biography  {
         border-color: brown;
-        border-style: outset;
+        border-style: none;
         border-radius: 10px;
         border-width: 3px;
-        width: 600px  
+        width: 600px         
+      }
+      div.relative {
+        position: relative;
+        left: 50px;
+        border: 3px solid #73AD21;
       }
     p {
-        text-align: center;
-
+        text-align: left;
+        font-family: Arial, Helvetica, sans-serif;
     }
-        
+    figure a {
+    
+    }
     
      ul {
         display:flex;
@@ -71,6 +82,22 @@ body {
             border-bottom: 3px solid black;
             
          }
+         table, th, td {
+            border: 1px solid;
+            font-size: 20px;
+          }
+          table, tr, b {
+            width: 100%          
+          }
+          td {
+            text-align: center;
+          }
+          section#Top3Favourites {
+            border-color: brown;
+            border-style: none;
+            border-radius: 10px;
+            border-width: 3px;
+            width: 600px }
             
             
 
