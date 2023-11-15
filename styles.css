@@ -59,7 +59,8 @@ body {
          h2 a {
             font-family: Brush Script MT;
             font-size: 50px;
-
+            color: #C00B41;
+            border-bottom: 3px solid black;
          }
             
             
