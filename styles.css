@@ -26,7 +26,7 @@ body {
         border-radius: 20px;
         width: 400px    
       }
-      div.relative {
+      .relative {
         position: relative;
         left: 150px;
         border: 3px none #73AD21;
@@ -38,21 +38,24 @@ body {
      ul {
         display:flex;
         justify-content: center;
+        gap: 3em;
         list-style-type: none;
         margin: 0;
         padding: 0;
         overflow: hidden;
         background-color: white;
-    flex-wrap: wrap
+        flex-wrap: wrap
+        
         }
     li.odd {
+          
             font-size: 25px;
             font-family: Arial, Helvetica, sans-serif;
             background-color: #7597be;
             border-style: solid;
             border-radius: 30px;
             text-align: center;
-            padding: .5em;                
+            padding: .4em;                
             list-style-type: none;
         }
         ul {
@@ -75,7 +78,8 @@ body {
           
           /* Change the link color to #111 (black) on hover */
           li a:hover {
-            background-color: #111;
+            background-color: rgba(81, 11, 194, 0.333);
+            border-radius: 30px;
           }
          h2 a {
             font-family: Brush Script MT;
