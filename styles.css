@@ -37,6 +37,7 @@ body {
     }  
      ul {
         display:flex;
+        justify-content: center;
         list-style-type: none;
         margin: 0;
         padding: 0;
@@ -45,13 +46,13 @@ body {
     flex-wrap: wrap
         }
     li.odd {
-            font-size: 20px;
+            font-size: 25px;
             font-family: Arial, Helvetica, sans-serif;
-            
+            background-color: #7597be;
             border-style: solid;
-            border-radius: 4px;
+            border-radius: 30px;
             text-align: center;
-            padding: .3em;                
+            padding: .5em;                
             list-style-type: none;
         }
         ul {
