@@ -1,115 +1,109 @@
 body {
     background-color: #EAFFFF;   
         }
-    h1 {
+/* this is my portfolio title */
+        h1 {
         text-align: center;
         font-family: Brush Script MT;
         font-size: 80px;
     }
-    .container {
-        display: flex;
-        align-content: center;
-    }
+
     .container {
         justify-content: center;
     }
+    /*navigation bar*/
+    ul {
+      display:flex;
+      justify-content: center;
+      gap:5em;
+      padding: .2%;
+      list-style-type: none;
+      overflow: hidden;
+      background-color: #333;
+      flex-wrap: wrap
+      }
+  li.odd {
+        
+      font-size: 20px;
+      font-family: Arial, Helvetica, sans-serif;
+      background-color: #0f8d99;
+      border-style: solid;
+      border-radius: 20px;
+      text-align: center;
+      padding: .4em;                
+      list-style-type: none;
+      }
+      
+    li {
+      float: left;        
+        }
+    li a {
+      display: inline;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      text-decoration: none;
+        }
+        
+        /* Change the link color to #111 (black) on hover */
+  li a:hover {
+      background-color: rgba(81, 11, 194, 0.333);
+      border-radius: 30px;
+  }
 
-      section#Biography  {
+/*Biography Section*/
+
+    #Biography  {
         float: center;
-        text-align: center;
-        padding-top: 1px;
-        padding-right: 400px;
-        padding-bottom: 50px;
-        padding-left: px;
-        border-color: brown;
-        border-style: solid;
-        border-radius: 20px;
-        width: 400px    
+        text-align: center;   
       }
-      .relative {
-        position: relative;
-        left: 150px;
-        border: 3px none #73AD21;
-      }
-    p {
+   .bio {
+      display:flex;
+      text-align: center;
+      border-style: solid;
+      align-content: center;
+      border-width: 5px;
+      width:80%
+      
+   }
+      
+      
+
+      p {
         text-align: center;
         font-family: Arial, Helvetica, sans-serif;
     }  
-     ul {
-        display:flex;
-        justify-content: center;
-        gap: 3em;
-        list-style-type: none;
-        margin: 0;
-        padding: 0;
-        overflow: hidden;
-        background-color: white;
-        flex-wrap: wrap
-        
-        }
-    li.odd {
-          
-            font-size: 25px;
-            font-family: Arial, Helvetica, sans-serif;
-            background-color: #7597be;
-            border-style: solid;
-            border-radius: 30px;
-            text-align: center;
-            padding: .4em;                
-            list-style-type: none;
-        }
-        ul {
-            list-style-type: none;
-            margin: 0;
-            padding:0;
-            overflow: hidden;
-            background-color: #333;
-        }
-        li {
-            float: left;        
-          }
-        li a {
-            display: inline;
-            color: white;
-            text-align: center;
-            padding: 14px 16px;
-            text-decoration: none;
-          }
-          
-          /* Change the link color to #111 (black) on hover */
-          li a:hover {
-            background-color: rgba(81, 11, 194, 0.333);
-            border-radius: 30px;
-          }
-         h2 a {
-            font-family: Brush Script MT;
-            font-size: 50px;
-            color: #C00B41;
-            border-bottom: 1px solid black;
+ /*Top 3 Favourites Section */
+
+    h2 a {
+        font-family: Brush Script MT;
+        font-size: 50px;
+        color: #C00B41;
+        border-bottom: 1px solid black;
             
          }
-         table, th, td {
-            border: 1px solid;
-            font-size: 20px;
+    table, th, td {
+        border: 1px solid;
+        font-size: 20px;
           }
-          table, tr, b {
-            width: 100%          
+    table, tr, b {
+        width: 100%          
           }
-          td {
-            text-align: center;
+    td {
+        text-align: center;
           }
-          h2 {
-                font-family:Arial, Helvetica, sans-serif;
-                font-size: 40px;
-                color: #C00B41;
-                border-bottom: 3px solid black;
+    h2 {
+        font-family:Arial, Helvetica, sans-serif;
+        font-size: 40px;
+        color: #C00B41;
+        border-bottom: 3px solid black;
           }
-          section#Top3Favourites {
-            border-color: brown;
-            border-style: none;
-            border-radius: 10px;
-            border-width: 3px;
-            width: 600px }
+    #Top3Favourites {
+        border-color: brown;
+        border-style: none;
+        border-radius: 10px;
+        border-width: 3px;
+        width: 600px }
             
             
 
