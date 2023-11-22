@@ -51,21 +51,21 @@ body {
   }
 
 /*Biography Section*/
-.container {
-  &__image {
-    width: 250px;
-    float: left;
-  }
-  &__text {
-    display: inline;
-  }
+.bio {
+  background-image:linear-gradient(to right, rgb(234, 135, 205),rgb(255, 204, 111),rgb(101, 252, 217),rgb(237, 149, 236));
+  width: 860px;
+  height: 300px;
 }
 .bio {
   display: inline-flex;
-  width: 900px;
-  border: 15px solid green;
-  padding: 50px;
-  margin: 20px;
+  width: 800px;
+  border: 9px solid ;
+  padding: 10px;
+  margin: 10px;
+  margin-left: 20%;
+}
+.attribution {
+  font-size: 12px;
 }
         h2 a{
           font-family: Brush Script MT;
@@ -76,8 +76,13 @@ body {
     p {
         text-align: left;
         font-family: Arial, Helvetica, sans-serif;
+        font-size: 22px;
     }  
-    
+  .slate {
+  border-radius: 50%;
+  border-color: black;
+  border-width: 10px;
+  }
     #Top3Favourites { 
   text-align: center;
   width: 320px;
