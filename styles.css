@@ -27,7 +27,7 @@ body {
   li.odd {
       font-size: 20px;
       font-family: Arial, Helvetica, sans-serif;
-      background-color: #ed728d;
+      background-color: #E3B8FF;
       border-style: solid;
       border-radius: 11px;
       text-align: center;
@@ -40,7 +40,7 @@ body {
         }
     li a {
       display: inline;
-      color: white;
+      color: black;
       text-align: center;
       padding: 20px;
       text-decoration: none;
@@ -68,7 +68,7 @@ body {
   font-size: 12px;
 }
         h2 a{
-          font-family: Brush Script MT;
+          
           font-size: 50px;
           color: #C00B41;
           text-align: center; 
@@ -96,6 +96,7 @@ body {
     font-size: 40px;
     color: #C00B41;
     border-bottom: 3px solid black;
+    b;
       }
 .titles {
   font-style: italic;
@@ -119,14 +120,15 @@ body {
           }
     table, td {
       font-size: 30px;
-
-    
     }
     nav {
-
-      font-size: 20px;
+      font-size:2-px;
       font-weight: bold;
       font-family: Arial, Helvetica, sans-serif;
+    }
+    .aside {
+      font-size: 20px;
+      ;
     }
     
 footer {
