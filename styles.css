@@ -3,9 +3,9 @@ body {
         }
 /* this is my portfolio title */
         h1 {
-        text-align: center;
         font-family: Brush Script MT;
         font-size: 80px;
+        text-align: center;
     }
 
     .container {
@@ -62,7 +62,7 @@ body {
   border: 9px solid ;
   padding: 10px;
   margin: 10px;
-  margin-left: 20%;
+  margin-left: 29%;
 }
 .attribution {
   font-size: 12px;
@@ -79,40 +79,50 @@ body {
         font-size: 22px;
     }  
   .slate {
+  border:solid;
   border-radius: 50%;
-  border-color: black;
-  border-width: 10px;
+  border-color: white;
+  border-width: 5px;
   }
-    #Top3Favourites { 
-  text-align: center;
-  width: 320px;
-  height: 300px;
-  padding: 30px;
-  border: 5px solid gray;
-  margin: 40px;
-}
+  #Top3Favourites {
+    border-color: brown;
+    border-style: none;
+    border-radius: 10px;
+    border-width: 3px;
+    width: 1100px 
+  }
+
+.titles {
+  font-style: italic;
+  font-size: 40px;
+  }
+ 
     table, th, td {
         border: 1px solid;
-        font-size: 20px;
+        border-color: black;
+        border:solid;
           }
+
     table, tr, b {
         width: 100%          
           }
     td {
         text-align: center;
           }
+    table, td {
+      font-size: 30px;
+    }
     h2 {
         font-family:Arial, Helvetica, sans-serif;
         font-size: 40px;
         color: #C00B41;
         border-bottom: 3px solid black;
           }
-    #Top3Favourites {
-        border-color: brown;
-        border-style: none;
-        border-radius: 10px;
-        border-width: 3px;
-        width: 600px }
+  #contact {
+    display:inline-flex;
+    width: 100px;
+    height:100px;
+  }
                    
 
     
