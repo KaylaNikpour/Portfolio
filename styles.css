@@ -8,9 +8,6 @@ body {
         text-align: center;
     }
 
-    .container {
-        justify-content: center;
-    }
     /*navigation bar*/  
     ul {
       display:flex;
@@ -25,9 +22,9 @@ body {
   li.odd {
        font-size: 20px;
       font-family: Arial, Helvetica, sans-serif;
-      background-color: #0f8d99;
+      background-color: #ed728d;
       border-style: solid;
-      border-radius: 20px;
+      border-radius: 10px;
       text-align: center;
       padding: .4em;                
       list-style-type: none;
@@ -91,16 +88,23 @@ body {
     border-width: 3px;
     width: 1100px 
   }
-
+  h2 {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    color: #C00B41;
+    border-bottom: 3px solid black;
+      }
 .titles {
   font-style: italic;
   font-size: 40px;
   }
+  
  
     table, th, td {
-        border: 1px solid;
         border-color: black;
-        border:solid;
+        border: solid;
+        padding: 4px;
+        
           }
 
     table, tr, b {
@@ -112,17 +116,18 @@ body {
     table, td {
       font-size: 30px;
     }
-    h2 {
-        font-family:Arial, Helvetica, sans-serif;
-        font-size: 40px;
-        color: #C00B41;
-        border-bottom: 3px solid black;
-          }
-  #contact {
-    display:inline-flex;
-    width: 100px;
-    height:100px;
-  }
+    
+footer {
+background-color: #FF16FD;
+
+height:20px;
+text-align: left;
+}
+.PurpleLogo {
+
+
+}
+ 
                    
 
     
