@@ -11,11 +11,8 @@ body {
     .container {
         justify-content: center;
     }
-    /*navigation bar*/
-    
-    
+    /*navigation bar*/  
     ul {
-  
       display:flex;
       justify-content: center;
       gap:5em;
@@ -26,8 +23,7 @@ body {
       flex-wrap: wrap
       }
   li.odd {
-        
-      font-size: 20px;
+       font-size: 20px;
       font-family: Arial, Helvetica, sans-serif;
       background-color: #0f8d99;
       border-style: solid;
@@ -55,50 +51,38 @@ body {
   }
 
 /*Biography Section*/
-
-    #Biography  {
-        float:center; 
-        text-align: center;  
-        width:800px;
-        height:250px;       
-        position:relative;
-    }
+.container {
+  &__image {
+    width: 250px;
+    float: left;
+  }
+  &__text {
+    display: inline;
+  }
+}
+.bio {
+  display: inline-flex;
+  width: 900px;
+  border: 15px solid green;
+  padding: 50px;
+  margin: 20px;
+}
         h2 a{
           font-family: Brush Script MT;
           font-size: 50px;
-          color: #C00B41;          
-            
-      }
-   .bio {
-    border-color: brown;
-    border-style: none;
-    border-radius: 10px;
-    border-width: 3px;
-    width: 600px;
-    height: 150px;
-    margin: 10px;
-    padding: 25px;
-    border: 5px solid black;
-   }
-
-   figcaption {
-    font-size: 10px;
-   }
-   .containter {
-    display:flex
-   }
-  .slate {
-    
-  }
+          color: #C00B41;
+          text-align: center; 
+         }     
     p {
-        text-align: center;
+        text-align: left;
         font-family: Arial, Helvetica, sans-serif;
     }  
+    
     #Top3Favourites { 
-      text-align: center;
+  text-align: center;
   width: 320px;
   height: 300px;
-  padding: 20px;
+  padding: 30px;
   border: 5px solid gray;
   margin: 40px;
 }
@@ -124,7 +108,6 @@ body {
         border-radius: 10px;
         border-width: 3px;
         width: 600px }
-            
-            
+                   
 
     
