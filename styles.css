@@ -55,12 +55,11 @@ body {
 /*Biography Section*/
 h2 a{
   font-size: 90px;
-  font-family: Brush Script MT;
-  
+  font-family: Brush Script MT; 
   
 }
 h2 {
-  display: flex;
+  text-align: center;
   font-family:Arial, Helvetica, sans-serif;
   font-size: 40px;
   color: #C00B41;
@@ -68,25 +67,18 @@ h2 {
     }
   #Biography {
   display:flex;
-  justify-content:center;
-  gap:7em;
+  gap:30px;
   margin-bottom:10%;
+  margin-top: 5%;
   padding-left:30px;
-  overflow:hidden;
   flex-wrap: wrap
-
 }
-
 .bio {
-
+  justify-content: center;
   background-image:linear-gradient(to right, rgb(234, 135, 205),rgb(255, 204, 111),rgb(101, 252, 217),rgb(237, 149, 236));
-  width: 860px;
-  height: 300px;
-  
-  
+  height: 300px;  
 }
 .bio {
-
   display:flex;
   width: 800px;
   border: 9px solid ;
@@ -156,36 +148,43 @@ h2 {
     }
     .aside {
       font-size: 20px;
-      ;
     }
     .tableinfo {
-      background: rgb(237, 245, 248); /* brand colour */
-      border: 3px solid rgb(4, 2, 2);
-      border-radius: 10px;
-      font-size: 20px;
-      margin: 2em;
-      padding: 1.5em;
-
+      background: #e3b8ff75; 
+      font-family: Arial, Helvetica, sans-serif;
+      font-style: italic;
+      border: 5px solid rgb(4, 2, 2);
+      border-radius: 14px;
+      font-size: 25px;
+      margin: 4em;
+      padding: 1em;
+    }
+    #Contact {
+      text-align: center;
+      border: solid;
+      border-width: 4px;
+      border-radius: 30px;
+      background-color: ;
+      padding-bottom:5%;
     }
 footer {
 display: flex;
+font-size: 20px;
+font-weight:bold ;
 background-color: #E3B8FF;
 border:3px;
 border-style: solid;
 margin-top: 40px;
 flex-wrap: wrap;
-}
+} 
 
- 
 .text {
-  font-size: 14px;
+  font-size: 10px;
 }
-
 @media screen and (max-width:700px) {
   ul, li.odd {
   gap: 0em;
   font-size: 20px;
-
   }
 }
   @media screen and (max-width: 1000px) {
@@ -193,8 +192,7 @@ flex-wrap: wrap;
       padding: 10px;
     }
   }
-  @media screen and (max-width: 600px) {
-    max-inline-size: ; {
+  @media screen and (max-width: 600px) { {
       padding: 10px;
     }
   }
