@@ -54,7 +54,10 @@ body {
 
 /*Biography Section*/
 h2 a{
-
+  font-size: 90px;
+  font-family: Brush Script MT;
+  
+  
 }
 h2 {
   display: flex;
@@ -67,6 +70,7 @@ h2 {
   display:flex;
   justify-content:center;
   gap:7em;
+  margin-bottom:10%;
   padding-left:30px;
   overflow:hidden;
   flex-wrap: wrap
@@ -74,16 +78,19 @@ h2 {
 }
 
 .bio {
+
   background-image:linear-gradient(to right, rgb(234, 135, 205),rgb(255, 204, 111),rgb(101, 252, 217),rgb(237, 149, 236));
   width: 860px;
   height: 300px;
   
+  
 }
 .bio {
-  display: inline-flex;
+
+  display:flex;
   width: 800px;
   border: 9px solid ;
-  padding:35px
+  padding:35px;
 }
 .attribution {
   font-size: 12px;
@@ -95,16 +102,17 @@ h2 {
         font-size: 22px;
     }  
   .slate {
+    display: flex;
   border:solid;
   border-radius: 50%;
   border-color: white;
   border-width: 5px;
+  flex-wrap: wrap;
   }
   
  #Top3Favourites {
   display:flex;
   justify-content: center;
-  gap:5em;
   padding: .2%;
   list-style-type: none;
   overflow: hidden;
@@ -113,6 +121,7 @@ h2 {
   
   h2 b {
     border-bottom: 4px solid black;
+  
   }
 .titles {
   font-style: italic;
@@ -120,17 +129,15 @@ h2 {
   }
   
  table {
-  color: rgb(216, 162, 228);
+  color: rgb(111, 215, 227);
  }
     table, th, td {
         
-        border-color: black;
+        border-color:black;
         border: solid;
         border-radius: 30px;
         padding:5px ;
-        background-color: #000000;
-        
-        
+        background-color: #000000b2;
           }
 
     table, tr, b {
@@ -143,7 +150,7 @@ h2 {
       font-size: 30px;
     }
     nav {
-      font-size:2-px;
+      font-size:20px;
       font-weight: bold;
       font-family: Arial, Helvetica, sans-serif;
     }
@@ -151,13 +158,24 @@ h2 {
       font-size: 20px;
       ;
     }
-    
+    .tableinfo {
+      background: rgb(237, 245, 248); /* brand colour */
+      border: 3px solid rgb(4, 2, 2);
+      border-radius: 10px;
+      font-size: 20px;
+      margin: 2em;
+      padding: 1.5em;
+
+    }
 footer {
+display: flex;
 background-color: #E3B8FF;
 border:3px;
 border-style: solid;
-margin-top: 30px;
+margin-top: 40px;
+flex-wrap: wrap;
 }
+
  
 .text {
   font-size: 14px;
@@ -175,3 +193,11 @@ margin-top: 30px;
       padding: 10px;
     }
   }
+  @media screen and (max-width: 600px) {
+    max-inline-size: ; {
+      padding: 10px;
+    }
+  }
+  
+
+
