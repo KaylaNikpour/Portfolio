@@ -1,0 +1,201 @@
+body {
+    background-color: #EAFFFF;   
+        }
+/* this is my portfolio title */
+        h1 {
+        font-family: Brush Script MT;
+        font-size: 80px;
+        text-align: center;
+    }
+
+    /*navigation bar*/ 
+  nav {
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+  }
+    ul {
+      display:flex;
+      justify-content: center;
+      gap:5em;
+      padding: .2%;
+      list-style-type: none;
+      overflow: hidden;
+      background-color: #333;
+      flex-wrap: wrap
+      }
+  li.odd {
+      font-size: 20px;
+      font-family: Arial, Helvetica, sans-serif;
+      background-color: #E3B8FF;
+      border-style: solid;
+      border-radius: 11px;
+      text-align: center;
+      padding: .4em;                
+      list-style-type: none;
+      }
+      
+    li {
+      float: left;        
+        }
+    li a {
+      display: inline;
+      color: black;
+      text-align: center;
+      padding: 40px;
+      text-decoration: none;
+        }
+        
+        /* Change the link color to #111 (black) on hover */
+  li a:hover {
+      background-color: rgba(81, 11, 194, 0.333);
+      border-radius: 30px;
+  }
+
+/*Biography Section*/
+h2 a{
+  font-size: 90px;
+  font-family: Brush Script MT; 
+  
+}
+h2 {
+  text-align: center;
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 40px;
+  color: #C00B41;
+ 
+    }
+  #Biography {
+  display:flex;
+  gap:30px;
+  margin-bottom:10%;
+  margin-top: 5%;
+  padding-left:30px;
+  flex-wrap: wrap
+}
+.bio {
+  justify-content: center;
+  background-image:linear-gradient(to right, rgb(234, 135, 205),rgb(255, 204, 111),rgb(101, 252, 217),rgb(237, 149, 236));
+  height: 300px;  
+}
+.bio {
+  display:flex;
+  width: 800px;
+  border: 9px solid ;
+  padding:35px;
+}
+.attribution {
+  font-size: 12px;
+}
+         
+    p {
+        text-align: left;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 22px;
+    }  
+  .slate {
+    display: flex;
+  border:solid;
+  border-radius: 50%;
+  border-color: white;
+  border-width: 5px;
+  flex-wrap: wrap;
+  }
+  
+ #Top3Favourites {
+  display:flex;
+  justify-content: center;
+  padding: .2%;
+  list-style-type: none;
+  overflow: hidden;
+  flex-wrap: wrap
+ }
+  
+  h2 b {
+    border-bottom: 4px solid black;
+  
+  }
+.titles {
+  font-style: italic;
+  font-size: 40px;
+  }
+  
+ table {
+  color: rgb(111, 215, 227);
+ }
+    table, th, td {
+        
+        border-color:black;
+        border: solid;
+        border-radius: 30px;
+        padding:5px ;
+        background-color: #000000b2;
+          }
+
+    table, tr, b {
+        width: 100%          
+          }
+    td {
+        text-align: center;
+          }
+    table, td {
+      font-size: 30px;
+    }
+    nav {
+      font-size:20px;
+      font-weight: bold;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+    .aside {
+      font-size: 20px;
+    }
+    .tableinfo {
+      background: #e3b8ff75; 
+      font-family: Arial, Helvetica, sans-serif;
+      font-style: italic;
+      border: 5px solid rgb(4, 2, 2);
+      border-radius: 14px;
+      font-size: 25px;
+      margin: 4em;
+      padding: 1em;
+    }
+    #Contact {
+      text-align: center;
+      border: solid;
+      border-width: 4px;
+      border-radius: 30px;
+      background-color: ;
+      padding-bottom:5%;
+    }
+footer {
+display: flex;
+font-size: 20px;
+font-weight:bold ;
+background-color: #E3B8FF;
+border:3px;
+border-style: solid;
+margin-top: 40px;
+flex-wrap: wrap;
+} 
+
+.text {
+  font-size: 10px;
+}
+@media screen and (max-width:700px) {
+  ul, li.odd {
+  gap: 0em;
+  font-size: 20px;
+  }
+}
+  @media screen and (max-width: 1000px) {
+    li a {
+      padding: 10px;
+    }
+  }
+  @media screen and (max-width: 600px) { {
+      padding: 10px;
+    }
+  }
+  
+
+
