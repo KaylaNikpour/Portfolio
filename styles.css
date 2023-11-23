@@ -3,14 +3,13 @@ body {
         }
 /* this is my portfolio title */
         h1 {
-        font-family: Brush Script MT;
+        font-family: "Brush Script MT";
         font-size: 80px;
         text-align: center;
     }
 
     /*navigation bar*/ 
   nav {
-    position: -webkit-sticky; /* Safari */
     position: sticky;
     top: 0;
   }
@@ -55,7 +54,7 @@ body {
 /*Biography Section*/
 h2 a{
   font-size: 90px;
-  font-family: Brush Script MT; 
+  font-family: "Brush Script MT"; 
   
 }
 h2 {
@@ -166,7 +165,6 @@ h2 {
       border: solid;
       border-width: 4px;
       border-radius: 30px;
-      background-color: ;
       padding-bottom:5%;
     }
 footer {
@@ -194,9 +192,8 @@ flex-wrap: wrap;
       padding: 10px;
     }
   }
-  @media screen and (max-width: 600px) { {
-      padding: 10px;
-    }
+  @media screen and (max-width: 600px) { 
+     main { padding: 10px; }    
   }
   
 
