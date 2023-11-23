@@ -53,26 +53,42 @@ body {
   }
 
 /*Biography Section*/
+h2 a{
+
+}
+h2 {
+  display: flex;
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 40px;
+  color: #C00B41;
+ 
+    }
+  #Biography {
+  display:flex;
+  justify-content:center;
+  gap:7em;
+  padding-left:30px;
+  overflow:hidden;
+  flex-wrap: wrap
+
+}
+
 .bio {
   background-image:linear-gradient(to right, rgb(234, 135, 205),rgb(255, 204, 111),rgb(101, 252, 217),rgb(237, 149, 236));
   width: 860px;
   height: 300px;
+  
 }
 .bio {
   display: inline-flex;
   width: 800px;
   border: 9px solid ;
-  padding-left:35px;
+  padding:35px
 }
 .attribution {
   font-size: 12px;
 }
-        h2 a{
-          
-          font-size: 50px;
-          color: #C00B41;
-          text-align: center; 
-         }     
+         
     p {
         text-align: left;
         font-family: Arial, Helvetica, sans-serif;
@@ -92,15 +108,12 @@ body {
   padding: .2%;
   list-style-type: none;
   overflow: hidden;
-  background-color: #a4d6ef;
   flex-wrap: wrap
  }
-  h2 {
-    font-family:Arial, Helvetica, sans-serif;
-    font-size: 40px;
-    color: #C00B41;
-    border-bottom: 3px solid black;
-      }
+  
+  h2 b {
+    border-bottom: 4px solid black;
+  }
 .titles {
   font-style: italic;
   font-size: 40px;
@@ -149,15 +162,16 @@ margin-top: 30px;
 .text {
   font-size: 14px;
 }
-@media screen and (max-width: 600px) {
-  body {
-    color: blue;
-  }
-}
-@media (orientation: landscape) {
-  body {
-    color: rebeccapurple;
-  }
-}
 
-    
+@media screen and (max-width:700px) {
+  ul, li.odd {
+  gap: 0em;
+  font-size: 20px;
+
+  }
+}
+  @media screen and (max-width: 1000px) {
+    li a {
+      padding: 10px;
+    }
+  }
