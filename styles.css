@@ -45,7 +45,6 @@ body {
       text-decoration: none;
         }
         
-        /* Change the link color to #111 (black) on hover */
   li a:hover {
       background-color: rgba(81, 11, 194, 0.333);
       border-radius: 30px;
@@ -111,8 +110,8 @@ h2 {
   overflow: hidden;
   flex-wrap: wrap
  }
-  
-  h2 b {
+ 
+  h2 b, button {
     border-bottom: 4px solid black;
   
   }
@@ -121,10 +120,10 @@ h2 {
   font-size: 40px;
   }
   
- table {
+ table, button {
   color: rgb(111, 215, 227);
  }
-    table, th, td {
+    table, th, td, button {
         
         border-color:black;
         border: solid;
@@ -133,13 +132,13 @@ h2 {
         background-color: #000000b2;
           }
 
-    table, tr, b {
+    table, tr, b, button {
         width: 100%          
           }
     td {
         text-align: center;
           }
-    table, td {
+    table, td, button {
       font-size: 30px;
     }
     nav {
