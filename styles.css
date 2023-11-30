@@ -111,7 +111,7 @@ h2 {
   flex-wrap: wrap
  }
  
-  h2 b, button {
+  h2 b, #btn-alert {
     border-bottom: 4px solid black;
   
   }
@@ -120,10 +120,10 @@ h2 {
   font-size: 40px;
   }
   
- table, button {
+ table, #btn-alert {
   color: rgb(111, 215, 227);
  }
-    table, th, td, button {
+    table, th, td, #btn-alert {
         
         border-color:black;
         border: solid;
@@ -132,13 +132,13 @@ h2 {
         background-color: #000000b2;
           }
 
-    table, tr, b, button {
+    table, tr, b, #btn-alert {
         width: 100%          
           }
     td {
         text-align: center;
           }
-    table, td, button {
+    table, td, #btn-alert {
       font-size: 30px;
     }
     nav {
