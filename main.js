@@ -23,9 +23,10 @@ button.addEventListener('mouseout', () => {
 });
 const changeText = document.querySelector("button");
  
-let count = 1;
-document.getElementById('btn-counter').onclick = () => {
-     count = count + 1;
-     document.getElementById('txt-counter').innerHTML = 'Number: 2'
-}
+
+var i = 0;
+    function buttonClick() {
+        i++;
+        document.getElementById('txt-counter').value = i;
+    }
 
