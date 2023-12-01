@@ -26,5 +26,6 @@ const changeText = document.querySelector("button");
 let count = 1;
 document.getElementById('btn-counter').onclick = () => {
      count = count + 1;
-     document.getElementById('btn-counter').innerHTML = 'message'
+     document.getElementById('txt-counter').innerHTML = 'Number: 2'
 }
+
