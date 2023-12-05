@@ -23,7 +23,7 @@ body {
       background-color: #333;
       flex-wrap: wrap
       }
-    .left, .middle, .right {
+  li.odd {
       font-size: 20px;
       font-family: Arial, Helvetica, sans-serif;
       background-color: #E3B8FF;
@@ -34,7 +34,10 @@ body {
       list-style-type: none;
       }
       
-     a {
+    li {
+      float: left;        
+        }
+    li a {
       display: inline;
       color: black;
       text-align: center;
@@ -156,9 +159,6 @@ h2 {
       margin: 4em;
       padding: 1em;
     }
-  #numbers {
-    padding: none;
-  }
     #Contact {
       text-align: center;
       border: solid;
