@@ -23,10 +23,25 @@ button.addEventListener('mouseout', () => {
 });
 const changeText = document.querySelector("button");
  
+// number
 
-var i = 0;
-    function buttonClick() {
-        i++;
-        document.getElementById('txt-counter').value = i;
-    }
+let count = 1;
+const txtCounter = document.getElementById('txt-counter');
+
+document.getElementById('btn-counter').onclick = () => {
+  count = count + 1;
+
+  if (count % 2 == 0) {
+    txtCounter.innerHTML = '${count}';
+    txtCounter.style.color = 'pink';
+    txtCounter.classList.remove('odd');
+    txtCounter.classList.add('odd');
+ } else {
+    txtCounter.innerHTML = 'Number: ${count}';
+    txtCounter.style.color = 'blue';
+    txtCounter.classList.remove('even');
+    txtCounter.classList.add('odd');
+ }
+};
+
 
