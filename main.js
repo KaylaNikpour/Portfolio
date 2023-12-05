@@ -29,10 +29,11 @@ let count = 1;
 const txtCounter = document.getElementById('txt-counter');
 
 document.getElementById('btn-counter').onclick = () => {
-  count = count + 1;
+    count = count + 1;
 
+  
   if (count % 2 == 0) {
-    txtCounter.innerHTML = '${count}';
+    txtCounter.innerHTML = 'Number: ${count}';
     txtCounter.style.color = 'pink';
     txtCounter.classList.remove('odd');
     txtCounter.classList.add('odd');
@@ -43,5 +44,17 @@ document.getElementById('btn-counter').onclick = () => {
     txtCounter.classList.add('odd');
  }
 };
+
+//loop
+
+const numbersList = document.getElementById('numbers');
+
+for (let i = 1; i <= 100; i++) {
+    const listItem = document.createElement('li');
+    listItem.textContent = i % 2 === 0 ? 'even' : 'odd';
+    numbersList.appendChild(listItem);
+
+    console.log('List Item', i, ':', listItem.textContent);
+}
 
 
