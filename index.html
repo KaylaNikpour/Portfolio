@@ -4,8 +4,8 @@
     <link href="styles.css" rel="stylesheet"/>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
     <title>Kayla </title>
+    <script defer src="main.js"></script>
 </head>
     <body>
         <header>
@@ -13,16 +13,14 @@
         </header>
                 <nav>
                     <ul>
-                    <li class="odd"><a href="#Biography">Biography</a></li>
-                    <li class="odd"><a href="#Top3Favourites">Top 3 Favourites</a></li>
-                    <li class="odd"><a href="#Contact">Contact</a></li>
+                    <li class="bar"><a href="#Biography">Biography</a></li>
+                    <li class="bar"><a href="#Top3Favourites">Top 3 Favourites</a></li>
+                    <li class="bar"><a href="#Contact">Contact</a></li>
                     </ul>
                 </nav>
-
 <main>
   <section id="Biography">
-  <h2><a>Biography</a></h2>
-  <br> 
+  <h2><a>Biography</a></h2> 
         <div class="bio">
      <p class="first p">I am a student currently studying Interactive design, UX. I like to create and design.  I enjoy reading, playing video games, 
         creating art, and exploring nature. I travel multiple times a year. I enjoy being away from home because the rest of the world 
@@ -68,6 +66,7 @@
             <td>Fifty Shades of Grey Series</td>
         </tr>
      </table>
+     <button id="btn-alert">Hover over me!</button>
     </div>
      <p class="tableinfo">I really enjoy reading different book series. I usually find that only reading a single book is dissapointing because 
         I always want to know more. This is why I have listed all series as my favourites! I got into video games in 2020 when Covid happened. Everyone
@@ -75,8 +74,13 @@
         along the way. For travel, I have been very fortunate to have traveled quite often due to my mom and I have been able to experience a lot of color
         places over the years. My favourite was Costa Rica because not only is it absolutely beautiful, but the people and the culture are so pure. 
         For movies, I picked the 3 that I could watch on repeat for hours. I will stand by the Twilight series forever no matter what people say about it!</p>
-    
-    
+
+        <button id="btn-counter">Number:</button>
+        <p id="txt-counter" value="0"></p>
+    </section>
+    <section>
+        <ul id="numbers">
+        </ul>
     </section>
     <section id="Contact">
       <h2>Contact</h2>
@@ -85,13 +89,14 @@
             </Nav>
                 <aside class="aside">You can reach me via LinkedIn.</aside>            
     </section>
+    
 </Main>
-
 <footer> 
-    &copy; Kayla Nikpour, 2023
+   <p> &copy; <span id="year"></span> Kayla Nikpour </p>
     <figure class="PurpleLogo">
         <img src="PurpleLogo.png" height="100" width="178" alt="rectangle logo with the name Kayla Nikpour written inside">
     </figure> 
 </footer>
+</section>
 </body>
 </html>
