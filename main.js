@@ -53,7 +53,6 @@ for (let i = 0; i <= 100; i++) {
   const listItem = document.createElement('li');
   listItem.textContent = i % 2 === 0 ? 'even' : 'odd';
   numbersList.appendChild(listItem);
-  listItem.style.backgroundColor = 'pink';
 
 
 }

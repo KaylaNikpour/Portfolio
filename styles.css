@@ -159,6 +159,16 @@ h2 {
       margin: 4em;
       padding: 1em;
     }
+    
+  #numbers {
+    justify-content: row;
+    gap:2em;
+    padding: .4%;
+    list-style-type:none;
+    overflow: hidden;
+    background-color: white;
+    flex-wrap:wrap;
+  }
     #Contact {
       text-align: center;
       border: solid;
