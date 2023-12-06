@@ -51,7 +51,7 @@ body {
   }
 
 /*Biography Section*/
-h2 a{
+h2#cursive{
   font-size: 90px;
   font-family: "Brush Script MT"; 
   
@@ -74,15 +74,12 @@ h2 {
 .bio {
   justify-content: center;
   background-image:linear-gradient(to right, rgb(234, 135, 205),rgb(255, 204, 111),rgb(101, 252, 217),rgb(237, 149, 236));
-  height: 300px;  
-}
-.bio {
+  height: 300px;
   display:inline-flex;
   width: 800px;
   height: 400px;
   border: 9px solid ;
- padding-left: 30px;
-  
+ padding-left: 30px; 
 }
 .attribution {
   font-size: 12px;
@@ -200,6 +197,14 @@ flex-wrap: wrap;
   gap: 0em;
   font-size: 20px;
   }
+
+  div, .bio {
+    display: flex;
+    flex-direction: column;
+    padding-top:70px;
+    padding-bottom: 75px;
+  }
+
 }
   @media screen and (max-width: 1000px) {
     li a {
