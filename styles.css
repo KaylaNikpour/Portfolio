@@ -45,14 +45,13 @@ body {
       text-decoration: none;
         }
         
-        /* Change the link color to #111 (black) on hover */
   li a:hover {
       background-color: rgba(81, 11, 194, 0.333);
       border-radius: 30px;
   }
 
 /*Biography Section*/
-h2#cursive{
+h2 a{
   font-size: 90px;
   font-family: "Brush Script MT"; 
   
@@ -75,12 +74,15 @@ h2 {
 .bio {
   justify-content: center;
   background-image:linear-gradient(to right, rgb(234, 135, 205),rgb(255, 204, 111),rgb(101, 252, 217),rgb(237, 149, 236));
-  height: 300px;
+  height: 300px;  
+}
+.bio {
   display:inline-flex;
   width: 800px;
   height: 400px;
   border: 9px solid ;
- padding-left: 30px; 
+ padding-left: 30px;
+  
 }
 .attribution {
   font-size: 12px;
@@ -108,8 +110,8 @@ h2 {
   overflow: hidden;
   flex-wrap: wrap
  }
-  
-  h2 b {
+ 
+  h2 b, #btn-alert {
     border-bottom: 4px solid black;
   
   }
@@ -118,10 +120,10 @@ h2 {
   font-size: 40px;
   }
   
- table {
+ table, #btn-alert {
   color: rgb(111, 215, 227);
  }
-    table, th, td {
+    table, th, td, #btn-alert {
         
         border-color:black;
         border: solid;
@@ -130,13 +132,13 @@ h2 {
         background-color: #000000b2;
           }
 
-    table, tr, b {
+    table, tr, b, #btn-alert {
         width: 100%          
           }
     td {
         text-align: center;
           }
-    table, td {
+    table, td, #btn-alert {
       font-size: 30px;
     }
     nav {
@@ -178,19 +180,13 @@ flex-wrap: wrap;
 .text {
   font-size: 10px;
 }
+
+
 @media screen and (max-width:700px) {
   ul, li.odd {
   gap: 0em;
   font-size: 20px;
   }
-
-  div, .bio {
-    display: flex;
-    flex-direction: column;
-    padding-top:70px;
-    padding-bottom: 75px;
-  }
-
 }
   @media screen and (max-width: 1000px) {
     li a {
