@@ -24,13 +24,13 @@ body {
       flex-wrap: wrap
       }
   li.bar {
-      font-size: 20px;
+      font-size: 25px;
       font-family: 'Poppins', Nunito, Roboto, sans-serif;
       background-color: #E3B8FF;
       border-style: solid;
       border-radius: 11px;
       text-align: center;
-      padding: .4em;                
+      padding: .2em;                
       list-style-type: none;
       }
       
@@ -141,7 +141,7 @@ figcaption {
       font-weight: bold;
       font-family: 'Poppins', Nunito, Roboto, sans-serif;
     }
-    .aside {
+    aside {
       font-size: 20px;
     }
     .tableinfo {
