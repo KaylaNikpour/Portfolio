@@ -25,7 +25,7 @@ body {
       }
   li.bar {
       font-size: 20px;
-      font-family: Arial, Helvetica, sans-serif;
+      font-family: 'Poppins', Nunito, Roboto, sans-serif;
       background-color: #E3B8FF;
       border-style: solid;
       border-radius: 11px;
@@ -83,8 +83,8 @@ figcaption {
          
     p {
         text-align: left;
-        font-family: Arial, Helvetica, sans-serif;
-        font-size: 22px;
+        font-family: 'Poppins', Nunito, Roboto, sans-serif;
+        font-size: 20px;
     }  
   .slate {
     display: flex;
@@ -98,7 +98,8 @@ figcaption {
  #Top3Favourites {
   display:flex;
   justify-content: center;
-  padding: .2%;
+  font-family: 'Poppins', Nunito, Roboto, sans-serif;;
+  padding: .1%;
   list-style-type: none;
   overflow: hidden;
   flex-wrap: wrap
@@ -109,6 +110,7 @@ figcaption {
   
   }
 .titles {
+  font-family: 'Poppins', Nunito, Roboto, sans-serif;;
   font-style: italic;
   font-size: 40px;
   }
@@ -120,7 +122,7 @@ figcaption {
         
         border-color:black;
         border: solid;
-        border-radius: 30px;
+        border-radius: 40px;
         padding:5px ;
         background-color: #000000b2;
           }
@@ -132,24 +134,24 @@ figcaption {
         text-align: center;
           }
     table, td, #btn-alert {
-      font-size: 30px;
+      font-size: 25px;
     }
     nav {
       font-size:20px;
       font-weight: bold;
-      font-family: Arial, Helvetica, sans-serif;
+      font-family: 'Poppins', Nunito, Roboto, sans-serif;
     }
     .aside {
       font-size: 20px;
     }
     .tableinfo {
       background: #e3b8ff75; 
-      font-family: Arial, Helvetica, sans-serif;
+      font-family: 'Poppins', Nunito, Roboto, sans-serif;
       font-style: italic;
       border: 5px solid rgb(4, 2, 2);
       border-radius: 14px;
       font-size: 25px;
-      margin: 4em;
+      margin: 2em;
       padding: 1em;
     }
 
@@ -193,7 +195,7 @@ flex-wrap: wrap;
 }
 
 /*media screen */
-@media screen and (max-width:780px) {
+@media screen and (max-width:900px) {
   ul, li {
   gap: 0em;
   font-size: 20px;
@@ -202,7 +204,7 @@ flex-wrap: wrap;
   div, .bio {
     display: flex;
     flex-direction: column;
-    padding-top:70px;
+    padding-top:110px;
     padding-bottom: 75px;
   }
 
