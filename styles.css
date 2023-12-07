@@ -3,7 +3,7 @@ body {
         }
 /* this is my portfolio title */
         h1 {
-        font-family: "Brush Script MT";
+        font-family: 'Parisienne',Dancing Script, Sofia, sans-serif;
         font-size: 80px;
         text-align: center;
     }
@@ -51,15 +51,11 @@ body {
   }
 
 /*Biography Section*/
-h2 a{
-  font-size: 90px;
-  font-family: "Brush Script MT"; 
-  
-}
 h2 {
+  font-size: 90px;
+  font-family: 'Parisienne',Dancing Script, Sofia, sans-serif; 
   text-align: center;
-  font-family:Arial, Helvetica, sans-serif;
-  font-size: 40px;
+  font-size: 70px;
   color: #C00B41;
  
     }
@@ -74,17 +70,14 @@ h2 {
 .bio {
   justify-content: center;
   background-image:linear-gradient(to right, rgb(234, 135, 205),rgb(255, 204, 111),rgb(101, 252, 217),rgb(237, 149, 236));
-  height: 300px;  
-}
-.bio {
+  height: 300px;
   display:inline-flex;
   width: 800px;
   height: 400px;
   border: 9px solid ;
- padding-left: 30px;
-  
+ padding-left: 30px; 
 }
-.attribution {
+figcaption {
   font-size: 12px;
 }
          
@@ -111,7 +104,7 @@ h2 {
   flex-wrap: wrap
  }
  
-  h2 b, #btn-alert {
+  h2 b, h2 c, #btn-alert {
     border-bottom: 4px solid black;
   
   }
@@ -159,6 +152,8 @@ h2 {
       margin: 4em;
       padding: 1em;
     }
+
+    /*java number colours */
   .even {
     color:pink;
   }
@@ -174,6 +169,7 @@ h2 {
     background-color: white;
     flex-wrap:wrap;
   }
+  /*contacts section */
     #Contact {
       text-align: center;
       border: solid;
@@ -196,12 +192,20 @@ flex-wrap: wrap;
   font-size: 10px;
 }
 
-
-@media screen and (max-width:700px) {
-  ul, li.odd {
+/*media screen */
+@media screen and (max-width:780px) {
+  ul, li {
   gap: 0em;
   font-size: 20px;
   }
+
+  div, .bio {
+    display: flex;
+    flex-direction: column;
+    padding-top:70px;
+    padding-bottom: 75px;
+  }
+
 }
   @media screen and (max-width: 1000px) {
     li a {
